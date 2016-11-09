@@ -341,8 +341,9 @@ img[src="assets/mayes-bio.jpg"] {
   background: linear-gradient(#FFFFFF, #fcf0c7);
 }
 
-#below-service-images {
-  background: linear-gradient(#E4E0D0, #6F989A);
+#service-images {
+  background-image: url('/assets/services-bg.jpg');
+  background-size: cover;
 }
 
 img.image-padding {

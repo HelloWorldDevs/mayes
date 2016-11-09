@@ -37,7 +37,7 @@ a.c-white {
     color: #82807d !important;
   }
   &-black {
-    color: #0d2d3f !important;
+    color: #000000 !important;
   }
   &-yellow {
     color: #fff348 !important;
@@ -47,5 +47,8 @@ a.c-white {
 .bg {
   &-light-blue {
     background-color: #e8f8ff;
+  }
+  &-services {
+    background-color: #fffcf5;
   }
 }
