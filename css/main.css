@@ -37068,7 +37068,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -37987,7 +37987,7 @@ button[class=close] {
 }
 
 #section-about {
-  background-image: url("/assets/lacey-bio.jpg");
+  background-image: url("/assets/mayes-bio.jpg");
 }
 
 @media screen and (max-width: 991px) {
@@ -37997,12 +37997,12 @@ button[class=close] {
   }
 }
 
-img[src="assets/lacey-bio.jpg"] {
+img[src="assets/mayes-bio.jpg"] {
   margin-top: -100px;
 }
 
 @media screen and (max-width: 768px) {
-  img[src="assets/lacey-bio.jpg"] {
+  img[src="assets/mayes-bio.jpg"] {
     margin-top: -80px;
   }
 }

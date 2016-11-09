@@ -315,14 +315,14 @@ button[class=close] {
 }
 
 #section-about {
-  background-image: url('/assets/lacey-bio.jpg');
+  background-image: url('/assets/mayes-bio.jpg');
   @media screen and (max-width: $width-md) {
     background-color: #FFFFFF;
     background-image: none;
   }
 }
 
-img[src="assets/lacey-bio.jpg"] {
+img[src="assets/mayes-bio.jpg"] {
   margin-top: -100px;
   @media screen and (max-width: $width-sm) {
     margin-top: -80px;
