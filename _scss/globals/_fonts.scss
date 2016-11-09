@@ -6,7 +6,7 @@
 
 
 
-body { font-family: 'Lato', sans-serif; }
+body { font-family: 'Open Sans', sans-serif; }
 
 h1,
 h2,
@@ -16,7 +16,7 @@ h5,
 h6,
 #logo,
 #primary-menu ul li > a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 0;
 	line-height: 1.5;
 	color: #68605B;
@@ -33,11 +33,6 @@ p {
 .font-lato {
 	font-family: 'Lato', sans-serif;
 }
-
-.font-roboto {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
 
 
 /* ----------------------------------------------------------------
@@ -242,9 +237,6 @@ p {
 	}
 }
 
-.font-larger {
-	font-style: 120%;
-}
 
 .area-byline {
 	font-size: 48px;
@@ -264,10 +256,6 @@ p {
 		font-size: 24px;
 		margin: 80px 0px;
 	}
-}
-
-.font-tiny {
-	font-size: 14px;
 }
 
 #logo img {

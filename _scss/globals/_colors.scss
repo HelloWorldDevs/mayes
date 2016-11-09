@@ -1,133 +1,47 @@
 body {
-  color: #6f6d6a;
+  color: #51504E;
 }
 
-//.font-light-blue {
-//  color: #31A2BF;
-//}
-//
-//.font-blue {
-//  color: #2e8b9c;
-//}
-//
-//.font-dark-blue {
-//  color: #14718a;
-//}
-//
-//.font-grey-blue {
-//  color: #6e949c;
-//}
-//
-//.font-grey {
-//  color: #777777;
-//}
-//
-//.font-dark-grey {
-//  color: #3e3c3b;
-//}
-//
-//.font-off-white {
-//  color: #fbf2e1;
-//}
-//
-//.font-orange {
-//  color: #f7881f;
-//}
-//
-//.font-dark-orange {
-//  color: #F36525;
-//}
-//
-.font-white,
-a.font-white {
+.c-white,
+a.c-white {
   color: #ffffff !important;
 }
 
-.font-gold {
-  color: #F4E82E;
-}
-//
-//.font-dark-brown,
-//i.font-dark-brown {
-//  color: #67250D;
-//  border-color: #67250D;
-//}
-//
-.font-shadowed {
-  text-shadow: 2px 2px 5px #000;
-}
-//
-//.bg-light-blue {
-//  background-color: #EBF4F7;
-//}
-//
-//.bg-dark-brown {
-//  background-color: #45271c;
-//}
-//
-//.bg-gray {
-//  background-color: #F9F9F9;
-//}
-//
-//.bg-orange,
-//a.bg-orange,
-//button.bg-orange {
-//  background-color: #f36525;
-//}
-//
-//body {
-//  background-color: #f9f9f9;
-//}
-//
+.c {
 
-.font-green {
-  color: #2b8e6c;
+  &-gold {
+    color: #F4E82E;
+  }
+  &-shadowed {
+    text-shadow: 2px 2px 5px #000;
+  }
+  &-blue {
+    color: #5A72A5;
+  }
+  &-blue-2 {
+    color: #4d6197;
+  }
+  &-green {
+    color: #749D86;
+  }
+  &-orange {
+    color: #ffa30d;
+  }
+  &-light-orange {
+    color: #e3b15b;
+  }
+  &-dark-orange {
+    color: #dba349;
+  }
+  &-grey {
+    color: #82807d;
+  }
+  &-black {
+    color: #0d2d3f;
+  }
+  &-yellow {
+    color: #fff348;
+  }
 }
 
-.font-dark-green {
-  color: #214337;
-}
 
-.font-blue {
-  color: #52a3bf;
-}
-
-.font-tealblue {
-  color: #227592;
-}
-
-.font-light-teal {
-  color: #abeaef;
-}
-
-.font-dark-blue {
-  color: #0D2D3F;
-}
-
-.font-amber {
-  color: #c79c4a;
-}
-
-.font-dark-amber {
-  color: #51504e;
-}
-
-.font-yellow {
-  color: #fff020;
-}
-
-.bg-blue {
-  background-color: #d7eafc;
-}
-
-.font-grey {
- color: #a2a19f;
-}
-
-.font-black {
-  color: #000000;
-}
-
-.bg-green {
-  background-color: #2da47b;
-}

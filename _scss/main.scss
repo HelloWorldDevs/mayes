@@ -395,3 +395,14 @@ img.image-padding {
 .tour-modal-item {
   display: none;
 }
+
+
+//Fix for Logo Text
+#logo img {
+  vertical-align: top;
+}
+.logo__text-wrapper {
+  display: inline-block;
+  line-height: 1.2;
+  padding-top: 20px;
+}
