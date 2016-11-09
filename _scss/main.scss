@@ -148,6 +148,10 @@ section {
   line-height: 1.0;
 }
 
+.line-height-large {
+  line-height: 1.7;
+}
+
 .center-md {
   @media (max-width: $width-md) {
     text-align: center;
@@ -284,7 +288,7 @@ button[class=close] {
 }
 
 #section-insurance {
-  background-image:url('/assets/membership-row-paul-lee.jpg');
+  background-image:url('/assets/insurance-background.jpg');
   @media (max-width: $width-sm) {
     background-image: none;
     & .insurance-mobile-fix {
@@ -333,13 +337,6 @@ img[src="assets/mayes-bio.jpg"] {
   background-image: url('/assets/fall-leaves.jpg');
 }
 
-#service-images {
-  background-image: url('/assets/mountain-top.png');
-  background-size: initial;
-  background-repeat: no-repeat;
-  background-position-y: 100%;
-}
-
 #service-tour-section {
   background: linear-gradient(#FFFFFF, #fcf0c7);
 }
@@ -357,7 +354,7 @@ img.image-padding {
   line-height: 2;
 }
 
-#bf-revz-widget-2235011373 {
+#bf-revz-widget-2643165205 {
   max-height: 800px;
 }
 
