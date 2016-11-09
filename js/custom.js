@@ -134,12 +134,12 @@
   });
 
   $('#google-map5').gMap({
-    address: '37.283091,-107.8760767',
+    address: '35.7932854,-78.8153221',
     maptype: 'ROADMAP',
     zoom: 15,
     markers: [
       {
-        address: "37.283091,-107.8780767"
+        address: "35.7932854,-78.8183221"
       }
     ],
     doubleclickzoom: false,
