@@ -1,0 +1,283 @@
+/* ----------------------------------------------------------------
+	Fonts
+
+	Replace your Fonts as necessary
+-----------------------------------------------------------------*/
+
+
+
+body { font-family: 'Lato', sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#logo,
+#primary-menu ul li > a {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0;
+	line-height: 1.5;
+	color: #68605B;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.font-open {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.font-lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.font-roboto {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/* ----------------------------------------------------------------
+	You can change your Font Specific Settings here
+-----------------------------------------------------------------*/
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 72px;
+	@media screen and (max-width: $width-lg) {
+		font-size: 65px;
+	}
+	@media screen and (max-width: $width-md) {
+		font-size: 53px;
+	}
+	@media screen and (max-width: $width-sm) {
+		font-size: 44px;
+	}
+	@media screen and (max-width: $width-xs) {
+		font-size: 28px;
+	}
+}
+
+h2 {
+	font-size: 50px;
+	@media screen and (max-width: $width-lg) {
+		font-size: 45px;
+	}
+	@media screen and (max-width: $width-md) {
+		font-size: 35px;
+	}
+	@media screen and (max-width: $width-sm) {
+		font-size: 32px;
+	}
+	@media screen and (max-width: $width-xs) {
+		font-size: 28px;
+	}
+}
+.heading h2 {
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 32px;
+	@media screen and (max-width: $width-lg) {
+		font-size: 30px;
+	}
+	@media screen and (max-width: $width-md) {
+		font-size: 25px;
+	}
+	@media screen and (max-width: $width-sm) {
+		font-size: 22px;
+	}
+	@media screen and (max-width: $width-xs) {
+		font-size: 20px;
+	}
+	&.phone-number {
+		font-size: 40px;
+		@media screen and (max-width: $width-lg) {
+			font-size: 32px;
+		}
+		@media screen and (max-width: $width-md) {
+		}
+		@media screen and (max-width: $width-sm) {
+		}
+		@media screen and (max-width: $width-xs) {
+		}
+	}
+}
+
+h4 {
+	font-size: 24px;
+	@media screen and (max-width: $width-lg) {
+		font-size: 22px;
+	}
+	@media screen and (max-width: $width-md) {
+		font-size: 20px;
+	}
+	@media screen and (max-width: $width-sm) {
+		font-size: 22px;
+	}
+	@media screen and (max-width: $width-xs) {
+	}
+}
+
+h5 {
+	font-size: 20px;
+	@media screen and (max-width: $width-lg) {
+		font-size: 18px;
+	}
+	@media screen and (max-width: $width-md) {
+	}
+	@media screen and (max-width: $width-sm) {
+	}
+	@media screen and (max-width: $width-xs) {
+	}
+}
+
+h6 {
+	font-size: 18px;
+	@media screen and (max-width: $width-lg) {
+	}
+	@media screen and (max-width: $width-md) {
+	}
+	@media screen and (max-width: $width-sm) {
+	}
+	@media screen and (max-width: $width-xs) {
+	}
+}
+
+.btn {
+	padding: 12px 15px;
+	@media screen and (max-width: $width-lg) {
+		padding: 10px 15px;
+	}
+	@media screen and (max-width: $width-md) {
+		padding: 10px 15px;
+	}
+}
+
+a.btn,
+button.btn {
+	font-family: 'Lato', sans-serif ;
+	background-color: #52A3BF;
+	color: #FFF;
+	border: 2px solid white;
+	border-radius: 15px;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-weight: 400;
+	@media screen and (max-width: $width-lg) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	@media screen and (max-width: $width-md) {
+	}
+	@media screen and (max-width: $width-sm) {
+		font-size: 18px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	@media screen and (max-width: $width-xs) {
+	}
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+	text-decoration: none;
+}
+
+
+
+p {
+	font-size: 16px;
+	font-weight: 100;
+	@media screen and (max-width: $width-sm) {
+		font-size: 16px;
+	}
+}
+
+#logo {
+	font-size: 36px;
+	line-height: 100%;
+}
+
+#primary-menu ul li > a {
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: none;
+	font-size: 17px;
+	@media screen and (max-width: 1300px) {
+		font-size: 15px;
+		padding: 39px 12px;
+	}
+	@media screen and (max-width: $width-lg) {
+		font-size: 15px;
+		letter-spacing: 0.7px;
+		padding: 39px 10px;
+	}
+	@media screen and (max-width: 1090px) {
+		font-size: 14px;
+	}
+	@media screen and (max-width: 991px) {
+		padding-left: 30px !important;
+		font-size: 18px;
+	}
+	@media screen and (max-width: $width-sm) {
+		padding-left: 30px !important;
+	}
+	@media screen and (max-width: $width-xs) {
+		padding-left: 30px !important;
+	}
+}
+
+.font-larger {
+	font-style: 120%;
+}
+
+.area-byline {
+	font-size: 48px;
+	margin: 150px 0px;
+	@media screen and (max-width: $width-lg) {
+		font-size: 38px;
+	}
+	@media screen and (max-width: $width-md) {
+		font-size: 30px;
+		margin: 120px 0px;
+	}
+	@media screen and (max-width: $width-sm) {
+		font-size: 26px;
+		margin: 100px 0px;
+	}
+	@media screen and (max-width: $width-xs) {
+		font-size: 24px;
+		margin: 80px 0px;
+	}
+}
+
+.font-tiny {
+	font-size: 14px;
+}
+
+#logo img {
+	@media screen and (max-width: $width-xs) {
+		padding-top: 15px;
+		max-width: 225px;
+		height: inherit;
+	}
+}
+
+#section-services p {
+	margin-bottom: 20px;
+}
