@@ -1,0 +1,25 @@
+//
+//a.btn-style-2,
+//button.btn-style-2 {
+//  color: #FFF;
+//  background: #FF7A00;
+//}
+//
+//a.btn-style-2:hover,
+//button.btn-style-2:hover {
+//  color: #FFF;
+//  background: #ce6300;
+//}
+
+button.btn {
+  text-transform: uppercase;
+}
+
+a[href="http://www.tysonsteele.com/"],
+a[href="http://www.tysonsteele.com/"]:hover {
+  color: #FFF;
+}
+
+a:hover {
+  color: inherit;
+}
