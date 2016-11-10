@@ -165,7 +165,7 @@ section {
 .bg-centered {
   background-position: center;
   @media (max-width: $width-md) {
-    background-position: left;
+    background-position: right;
   }
 }
 
@@ -320,6 +320,7 @@ button[class=close] {
 
 #section-about {
   background-image: url('/assets/mayes-bio.jpg');
+  background-position: center 20%;
   @media screen and (max-width: $width-md) {
     background-color: #FFFFFF;
     background-image: none;
@@ -382,6 +383,9 @@ button.btn-style-2:hover {
   background: #d3870b;
 }
 
+.slide3 {
+  background-position: 70% center !important;
+}
 
 //Fix for Logo Text
 #logo img {
