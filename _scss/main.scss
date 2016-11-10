@@ -370,6 +370,18 @@ img.image-padding {
   display: none;
 }
 
+a.btn-style-2,
+button.btn-style-2 {
+  color: #FFF;
+  background: #FFA30D;
+}
+
+a.btn-style-2:hover,
+button.btn-style-2:hover {
+  color: #e7e7e7;
+  background: #d3870b;
+}
+
 
 //Fix for Logo Text
 #logo img {
@@ -380,3 +392,6 @@ img.image-padding {
   line-height: 1.2;
   padding-top: 20px;
 }
+
+
+
