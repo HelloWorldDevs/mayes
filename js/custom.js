@@ -129,7 +129,7 @@
 
   new Swiper('.swiper-container', {
     speed: 400,
-    autoplay: 6000,
+    autoplay: false,
     loop: true
   });
 
