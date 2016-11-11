@@ -376,6 +376,9 @@ button.btn-style-2:hover {
 //Fix for Logo Text
 #logo img {
   vertical-align: top;
+  max-width: 300px;
+  height: initial;
+  transform: translateY(15%);
 }
 .logo__text-wrapper {
   display: inline-block;
