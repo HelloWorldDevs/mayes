@@ -273,16 +273,6 @@ section {
   }
 }
 
-.swiper_wrapper .swiper-slide:nth-child(1),
-.swiper_wrapper .swiper-slide:nth-child(3) {
-  background-position: 40% top;
-}
-
-.swiper_wrapper .swiper-slide:nth-child(2) {
-  background-position: 65% top;
-
-}
-
 button[class=close] {
   font-size: 50px;
 }
@@ -381,10 +371,6 @@ a.btn-style-2:hover,
 button.btn-style-2:hover {
   color: #e7e7e7;
   background: #d3870b;
-}
-
-.slide3 {
-  background-position: 70% center !important;
 }
 
 //Fix for Logo Text
