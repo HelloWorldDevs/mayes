@@ -113,6 +113,10 @@ section {
   padding-bottom: 15px;
 }
 
+.padding-top {
+  padding-top: 30px;
+}
+
 .padding-vert {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -410,6 +414,10 @@ button.btn-style-2:hover {
   border-bottom: solid 3px #FFDE86;
 }
 
+#footer p, #footer a {
+  font-size: 13px !important;
+}
+
 
 
 //fix for iPhone modal issue
@@ -438,3 +446,23 @@ textarea {
 }
 
 #wrapper { @include static-nav-menu; }
+
+
+/// Bootstrap 3 Modal Width Override - will override the default width of bootstrap's modal. Add .modal-wide to the bootstrap .modal in html (class="modal modal-wide")
+/// @group fixes
+/// @example
+@mixin modal-width-override($width: 80%) {
+  &.modal-wide .modal-dialog {
+    width: $width;
+  }
+  &.modal-wide .modal-body {
+    //overflow-y: auto;
+  }
+
+}
+
+.modal {
+  @include modal-width-override();
+}
+
+

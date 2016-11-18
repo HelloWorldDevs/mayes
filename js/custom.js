@@ -129,8 +129,9 @@
 
   new Swiper('.swiper-container', {
     speed: 400,
-    autoplay: false,
-    loop: true
+    autoplay: 6000,
+    loop: true,
+    autoplayDisableOnInteraction: false
   });
 
   $('#google-map5').gMap({

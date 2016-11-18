@@ -10,8 +10,10 @@
 a.si-facebook {
   display: inline-block;
   float: right;
+  margin-right: 20px;
   @media (max-width: $width-md) {
     float: none;
+    margin-right: 5px;
   }
 }
 
@@ -29,7 +31,9 @@ a.si-facebook {
 a.si-twitter {
   display: inline-block;
   float: right;
+  margin-right: 20px;
   @media (max-width: $width-md) {
+    margin-right: 5px;
     float: none;
   }
 }
