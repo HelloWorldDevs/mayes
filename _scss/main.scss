@@ -396,6 +396,9 @@ button.btn-style-2:hover {
 
 #footer p {
   text-align: left !important;
+  @media screen and (max-width: $width-md) {
+    text-align: center !important;
+  }
 }
 
 .slide--middle {
@@ -430,7 +433,7 @@ textarea {
 
 /// Static Nav Height - sticky nav menu will not change height when you scroll. Over writes canvas.
 /// @group effect
-/// @example #wrapper { @include static-nav-menu; }
+/// @example #wrapper { @include static-nav-menu(); }
 @mixin static-nav-menu() {
   #header.sticky-header:not(.static-sticky),
   #header.sticky-header:not(.static-sticky) #header-wrap,
@@ -450,7 +453,8 @@ textarea {
 
 /// Bootstrap 3 Modal Width Override - will override the default width of bootstrap's modal. Add .modal-wide to the bootstrap .modal in html (class="modal modal-wide")
 /// @group fixes
-/// @example
+/// @param {percentage} $width [90%] - Percentage of the width of the viewport you would like bootstrap's modal to be
+/// @example .modal { @include modal-width-override( 90% ); }
 @mixin modal-width-override($width: 80%) {
   &.modal-wide .modal-dialog {
     width: $width;
