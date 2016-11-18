@@ -377,7 +377,7 @@ button.btn-style-2:hover {
 #logo img {
   vertical-align: top;
   max-width: 300px;
-  height: initial;
+  height: initial !important;
   transform: translateY(15%);
 }
 .logo__text-wrapper {
@@ -419,3 +419,22 @@ input[type='phone'],
 textarea {
   font-size: 16px;
 }
+
+/// Static Nav Height - sticky nav menu will not change height when you scroll. Over writes canvas.
+/// @group effect
+/// @example #wrapper { @include static-nav-menu; }
+@mixin static-nav-menu() {
+  #header.sticky-header:not(.static-sticky),
+  #header.sticky-header:not(.static-sticky) #header-wrap,
+  #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height: 100px;
+  }
+  #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    padding-top: 39px;
+  }
+  #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    transform: translateY(15%);
+  }
+}
+
+#wrapper { @include static-nav-menu; }
