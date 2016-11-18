@@ -402,7 +402,9 @@ button.btn-style-2:hover {
 }
 
 .slide--middle {
-  transform: translateY(45%);
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
 }
 
 .swiper_wrapper .swiper-slide {
