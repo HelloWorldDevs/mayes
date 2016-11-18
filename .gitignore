@@ -4,3 +4,5 @@ siteConfig.py
 *.pyc
 disabled.htaccess
 scripts
+.idea
+sassdoc
